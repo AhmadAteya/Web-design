@@ -1,0 +1,155 @@
+/* standered rules */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p{ 
+    font-size: 21px;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+
+hr {
+    width: 300px;
+    margin: auto;
+    height: 1px;
+    background-color: #fff;  
+    border: hidden;
+}
+
+.container {width:950px;margin:auto}
+
+/* start navbar*/
+.navbar {
+    background-color: #2C3E50;
+    overflow: hidden;
+}
+.navbar ul{
+     list-style:none;
+    padding-left:0;
+    overflow:hidden;
+}
+
+.navbar ul li .others {float:right; padding:15px}
+.navbar ul li .logo {float: left; padding: 15px;}
+.navbar li a{text-transform: uppercase; color: #fff; text-decoration: none;}
+.navbar li a:hover{color: #ce1b16; background-color:white;}
+.navbar li .logo a:hover{color: #ce1b16;}
+
+/*start perInfo */
+.perInfo{
+    background-color:#18BC9C;
+    padding: 25px;
+}
+.perInfo .img{ display: block; margin: auto;}
+.perInfo h3{ font-size: 25px; text-transform: capitalize;}
+
+/* portfolio */
+.portfolio{
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.portfolio .container h3{color: #2C3E50;}
+.portfolio .container hr{height: 2px; background-color: #EEEEEE; width: 200px;}
+.portfolio .container .row{
+    padding-top: 40px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.portfolio .container .row img{
+    margin-bottom: 13px;
+    float: left;
+    width: 31%;
+    padding-right: 20px;
+}
+
+/*about */
+.about{
+    background-color: #18BC9C;
+    padding: 25px;
+}
+.about .container hr{width: 200px;}
+.about .container .row {
+    margin-top: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.about .container .left{width:45%;float:left;}
+.about .container .right{width:45%;float:right;}
+
+/* contact */
+.contact{
+    padding: 25px;
+}
+.contact .container h3{color:  #2C3E50;}
+.contact .container hr{height: 2px; width: 250px; background-color: #eee;}
+
+.contact form {margin-top: 20px;}
+.contact .container form input,
+.contact .container form textarea{
+    display: block;
+    padding: 10px 9px;
+    font-size: 15px;
+    width:60%;
+    margin: auto;
+    border-radius: 5px;
+}
+.contact .container form input[type="submit"] {
+    display:block;
+    background-color:#337AB7;
+    color:#FFF;
+    padding:15px 10px;
+    border:0;
+    border-color: #2e6da4;
+    width:10%;
+    margin-left: 19%;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+.contact .container input[type="submit"]:hover {
+  background-color: #286090;
+}
+
+
+/* footer */
+footer {
+    background-color: #2C3E50;
+    overflow: hidden;
+    padding: 25px;
+    margin-top: 20px;
+}
+footer .container h2 {text-align: unset;}
+footer .footer-left{
+    width: 50%;
+    float: left;
+}
+
+footer .footer-right{
+    width: 50%;
+    float: right;
+}
+.copyright{
+    overflow: hidden;
+    background-color: #2C3E40;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}

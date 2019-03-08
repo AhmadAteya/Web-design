@@ -1,0 +1,175 @@
+body{
+	font-family: "Segoe UI Light";
+
+}
+
+.services img:hover,
+.gallery img:hover,
+.team img:hover
+{
+	opacity: .6
+}
+.services,
+.prices,
+.gallery,
+.status,
+.team
+{
+	padding: 48px 0;
+}
+	/* start info styling */
+  /**** for all info divs in the sections ****/
+.info{padding-bottom: 48px;}
+
+.info h2{
+    font-size: 60px;
+    color: firebrick;
+    font-weight: bolder;
+}
+.info p{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+     /* end info styling */
+
+/* start nav */
+.navbar{
+	padding: 24px 14px;
+	margin: 0;
+	border-radius: 0;
+	align-items: center;
+}
+.navbar-inverse .navbar-nav>a,
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: red;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form{
+	margin-left: 130px
+}
+/* end nav */
+
+/* start carousel */
+.carousel-inner img{width: 100%;}
+.carousel-caption{
+	padding: auto;
+	background-color: rgba(3,3,3,0.3);
+	border-radius: 15px;
+	border:2px white solid;
+	margin-bottom: 13%;
+}
+
+/* end carousel */
+
+/* start about */
+.about{
+	padding: 48px 0;
+}
+.about .row .img{
+	width: 100%;
+}
+.about .row .text{
+	font-size: 18px;
+}
+.about .row .text span{
+	font-weight: bold;
+}
+/* end about */
+
+/* start services */
+.services{background-color: #CCCCCC;}
+/* end services */
+
+/* start prices */
+.prices{background-color:#DDDDDD;}
+.prices .all{
+	background: #fff;
+    padding: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.prices .all h4{
+	color: firebrick;
+    font-weight: bolder;
+    float: right;
+    font-size: 23px;	
+}
+/* end prices */
+
+/* start status */
+.status{background-color:#DDDDDD;}
+.status span {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.status img {
+    margin: auto;
+}
+/* end status */
+
+/* start team */
+.team{
+	background-color:black; 
+	color: white;
+}
+.team h5 {
+    color: firebrick;
+    font-weight: bolder;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.team p{
+	text-align: center;
+	font-size: 17px;
+}
+/* end team */
+
+/* start contact */
+.contact .form-group input::placeholder,
+.contact .form-group textarea::placeholder{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.contact .form-group input{
+	border-radius: 0;
+	padding:15px;
+}
+.form-group .float-left{
+    float: left;
+    width: 49%;
+    margin-bottom: 20px;
+}
+.contact .form-group .float-left:first-child{
+	margin-right: 2%
+}
+form .btn{
+	padding: 10px 25px;
+}
+/* end contact */
+
+/* start footer */
+footer{
+	background-color: #000;
+	color: #fff;
+	padding: 48px 0;
+}
+footer p{
+	color: #777;
+	font-size: 14px
+}
+footer .copy{
+	font-size: 12px
+}
+footer .social a,
+footer .social a:hover{
+	font-size: 20px;
+	text-decoration:none;
+}
+/* end footer */
